@@ -1,0 +1,33 @@
+
+.insert-form{
+    border: 2px solid rgb(32, 31, 31);
+    width: 700px;
+    margin-left: 200px;
+    padding: 10px;
+}
+
+.product{
+    font-size: 20px;
+    font-weight: bold;
+}
+#product_name, #product_price, #product_details{
+    width: 300px;
+    padding: 7px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+#product_details{
+    width: 500px;
+    height: 200px;
+}
+#product_image{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#insert{
+    width: 150px;
+    font-weight: bold;
+    margin-left: 250px;
+}
+
