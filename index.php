@@ -22,10 +22,26 @@
         height: 35px;
      
             }
+        .website-name{
+            color: orange;
+            font-family: 'Brush Script MT', cursive;
+        }
+        .bd{
+            color: yellow;
+            font-family: 'Brush Script MT', cursive;
+            font-size: 20px;
+        }
+        .slide, marquee{
+            color: #520F0D;
+            font-weight:bold;
+            font-family: 'Brush Script MT', cursive;
+            font-size: 30px;
+            margin-bottom: 0px;
+        }
         .menu a{ 
         color: #fff;
         text-decoration: none;
-        padding:0px 40px; 
+        padding:0px 50px; 
         font-size:13px;	 
         font-weight:bold;
              }
@@ -44,8 +60,9 @@
              border: 1px solid #BDC3BF;
              float: left;
              margin-left: 15px;
-             margin-top: 15px;
+             
          }
+        
          .body-section img{
             width: 200px;
             height: 230px;
@@ -103,14 +120,20 @@
             <a href="#">
                 <img class="logo" src="images/logo/icon.png" alt="n/a">
             </a>
+            <span class="website-name">fashion<span class="bd">BD</span></span>
             <a href="#home.html">Home</a>
             <a href="#product.html">Product</a>
             <a href="#about.html">About Us</a>
-            <a href="#Details.html">Details</a>
+            
             <a href="#contact.html">Contact</a>
            
     </ul>
     </div>
+
+    <div class="container">
+        <span class="slide"><marquee behavior="" direction="">fashionBD.com</marquee></span>
+    </div>
+
 
     <div class="container body-content">
     <?php
