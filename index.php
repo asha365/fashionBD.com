@@ -13,6 +13,7 @@
         *{
             font-family: Verdana;   
         }
+        
     
         .main{
         background-color: #333333;
@@ -91,10 +92,8 @@
          #button:hover{
              background-color: #FE649E;
          }
-         .footer h3{
-             background-color: #334390;
-             color:white;
-         }
+         
+
 
     </style>
 </head>
@@ -138,10 +137,6 @@
         ?>
     </div>
 
-<!-- <div>
-    <fotter>
-        <h3>&copy; 2022 copyright: fashionBD.com</h3>
-    </footer>
-</div> -->
+    </div>
 </body>
 </html>
